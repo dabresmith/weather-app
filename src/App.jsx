@@ -3,6 +3,7 @@ import { FaAward } from "react-icons/fa";
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
 import TimeAndLocation from './components/TimeAndLocation'
+import TempAndDetails from './components/TempAndDetails';
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
     <Inputs/>
 
     <TimeAndLocation/>
+
+    <TempAndDetails/>
 
     </div>
   )
